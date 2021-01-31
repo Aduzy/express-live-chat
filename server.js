@@ -34,6 +34,6 @@ io.on('connection', (ws) => {
     });
 });
 
-server.listen(port, function(){
+server.listen(port, () => {
     console.log("Server listening on port " + port);
 });
